@@ -81,13 +81,13 @@ a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 100px;
+    padding: 120px;
     border-radius: 50px;
 }
 
 .img-app {
     width: 100%;
-    border-radius: 12px;
+    border-radius: 25px;
 }
 
 .btn-download {
@@ -144,5 +144,5 @@ details p {
 
 footer {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px 0px 20px 0;
 }
