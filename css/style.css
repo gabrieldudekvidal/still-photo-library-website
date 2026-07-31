@@ -47,7 +47,6 @@ a {
 .img-logo {
     width: 60px;
     border-radius: 15px;
-    border: 2px solid black;
 }
 
 .con-hero {
@@ -145,4 +144,31 @@ details p {
 footer {
     text-align: center;
     margin: 50px 0px 20px 0;
+}
+
+@media screen and (max-width: 480px) {
+    .con-main {
+        width: 90%;
+    }
+
+    .con-hero h1 {
+        font-size: 2.4rem;
+    }
+
+    .app-name h2 {
+        font-size: 1.8rem;
+    }
+
+    .con-img {
+        padding: 30px;
+    }
+
+    .img-app {
+        border-radius: 10px;
+    }
+
+    summary {
+        font-size: 1.2rem;
+    }
+
 }
